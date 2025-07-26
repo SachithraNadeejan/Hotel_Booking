@@ -1,0 +1,76 @@
+body{
+  height: 100vh;
+  background: linear-gradient(rgba(172, 21, 21, 0.05),rgba(0,0,0,0.90)),url('../Pics/Athans\ home\ cover.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+form {
+    max-width: 800px;
+    margin: 9px auto;
+    padding: 20px;
+    border: 10px solid #282727;
+    background-color: rgb(11, 11, 11);
+    border-radius: 60px;
+    box-shadow: 0 0 50px  black;
+    
+}
+
+h1{
+    color:whitesmoke;
+    text-align: center;
+    font-family:Algerian;
+}
+h3{
+    color:rgb(179, 177, 177);
+    text-align: left;
+}
+label {
+    display:block;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color:whitesmoke;
+    border: 10px;;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 180px;
+    cursor:none;
+}
+
+input[type="submit"]:hover {
+    background-color:gray;
+    
+}
+
+textarea {
+    font-size: 14px;
+}
+
+.topnav-right-span{
+	font-size: 18px;
+	font-weight: 300;
+  }

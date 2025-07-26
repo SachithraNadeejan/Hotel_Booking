@@ -1,0 +1,62 @@
+body{
+	height: 100vh;
+	background: linear-gradient(rgba(172, 21, 21, 0.05),rgba(0,0,0,0.90)),url('../Pics/Athans\ home\ cover.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  }
+
+.city {
+    text-align: center;
+    padding: 0px;
+    background-color:transparent;
+    color:black;
+    font-family: Algerian;
+    font-size:50px;
+}
+p {
+    text-align: center;
+    padding: 0px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 35px ;
+}
+
+
+.heritage-list {
+    display:inline-flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.heritage-list a {
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+.heritage-list img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.heritage-list img:hover {
+    transform: scale(1.1);
+}
+.heritage-list a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+  
+.topnav-right-span{
+	font-size: 18px;
+	font-weight: 300;
+  }

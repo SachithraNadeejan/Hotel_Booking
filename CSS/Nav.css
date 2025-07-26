@@ -1,0 +1,42 @@
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav img.logo {
+  height: 50px; 
+  float: left;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.topnav a {
+  float: left; 
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.1s;
+  border-radius: 20px; 
+  border: 2px solid transparent;
+}
+
+.topnav a.active {
+  background-color: gray;
+  color: whitesmoke;
+  border-color: rgb(189, 187, 187);
+}
+
+.topnav-right {
+  float: left; 
+}
+
+.topnav a:hover {
+  background-color: gray;
+  color: whitesmoke;
+  border-color: rgb(189, 187, 187);
+}
+
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="CSS/Nav.css">
+	<link rel="stylesheet" href="CSS/Hotelbooking.css">
+	<title>___Athens___</title>
+</head>
+<body >
+    <header>
+        <div class="topnav">
+        	<img class="logo" src="Pics/travel logo.jpg">
+        	<div class="topnav-right">
+  				<a href="home.html"><span class="topnav-right-span"> Home </span></a>
+  				<a href="Gallery.html"><span class="topnav-right-span"> Gallery </span></a>
+  				<a href="Hotelbooking.html" class="active"><span class="topnav-right-span">Hotel Booking </span></a>
+  				<a href="Heritage.html"><span class="topnav-right-span">Heritage </span></a>
+  			</div>
+		</div>
+    </header>
+
+    <br><br>
+
+    <h1>___H o t e l - B o o k i n g___</h1>
+    <form action="" method="post">
+
+
+        <h3><label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+
+        <label for="check-in-date">Check in Date:</label>
+        <input type="date" id="check-in-date" name="check-in-date" required>
+
+        <label for="check-out-date">Check out Date:</label>
+        <input type="date" id="check-out-date" name="check-out-date" required>
+
+       
+
+        <label for="num-guests">NO of Guests:</label>
+        <input type="number" id="num-guests" name="num-guests" required>
+        
+        <label for="num-adults">Adults:</label>
+            <select id="num-adults" name="num-adults" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <label for="num-children">Children:</label>
+            <select id="num-children" name="num-children" required>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <label for="num-rooms">Number of Rooms:</label>
+            <input type="number" id="num-rooms" name="num-rooms" required>
+
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" name="room-type" required>
+                <option value="standard">Standard Room</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Suite</option>
+            </select>
+
+        
+            <br><br>
+       Comments:</h3>
+        <textarea id="comments" name="comments" rows="10" cols="30"></textarea>
+
+ 
+        <input type="submit" name="sub" value="Submit Booking">
+    </form>
+
+  
+
+
+</body>
+</html>
